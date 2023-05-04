@@ -101,7 +101,6 @@ int main(int agrc, char *argv[]){
 	cout << "\nType in your name: ";
 	cin >> playerName;
 	while(!stopGame){
-
 		cout << "\nMake your choice!: ";
 		cin >> uChoice;
 		chooseWinner(toUpperCase(uChoice), toUpperCase(playerName));
