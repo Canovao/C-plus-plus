@@ -1,10 +1,3 @@
-/*
- * CottageCheese.hpp
- *
- *  Created on: 29 de mai. de 2023
- *      Author: m260851
- */
-
 #ifndef COTTAGECHEESE
 #define COTTAGECHEESE
 
@@ -21,4 +14,4 @@ public:
 	string getDescription();
 };
 
-#endif /* SRC_COTTAGECHEESE_HPP_ */
+#endif

@@ -1,10 +1,3 @@
-/* Unicamp - Universidade Estadual de Campinas
-   FT - Faculdade de Tecnologia
-   Limeira - SP
-   Prof. Dr. Andre F. de Angelis
-   Maio/2015
-*/
-
 #ifndef BREAD
    #define BREAD
 
@@ -27,5 +20,3 @@ class Bread : public Food
    };
    
 #endif
-   
-/* fim de arquivo */
