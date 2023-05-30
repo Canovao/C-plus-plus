@@ -27,4 +27,4 @@ add_executable(ProjetoBakery
         Menu.cpp
         Menu.hpp
         MyBooleanClass.cpp
-        MyBooleanClass.hpp)
+        MyBooleanClass.hpp Mortadella.cpp)

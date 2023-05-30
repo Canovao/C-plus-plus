@@ -15,12 +15,12 @@ using namespace std;
    void listItems(void);
    void insertItems(void);
    void insertBread(void);
-   void insertCheese(void); //to do
-   void insertCottageCheese(void); // to do
+   void insertCheese(void);
+   void insertCottageCheese(void);
    void insertCracker(void);
    void insertFilledWafer(void);
-   void insertHam(void); // to do
-   void insertMortadella(void); // to do
+   void insertHam(void);
+   void insertMortadella(void);
    
    
 #endif
