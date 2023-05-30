@@ -1,10 +1,3 @@
-/*
- * Ham.hpp
- *
- *  Created on: 29 de mai. de 2023
- *      Author: m260851
- */
-
 #ifndef HAM
 #define HAM
 
@@ -21,4 +14,4 @@ public:
 	string getDescription();
 };
 
-#endif /* SRC_HAM_HPP_ */
+#endif

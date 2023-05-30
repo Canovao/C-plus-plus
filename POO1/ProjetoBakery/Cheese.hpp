@@ -1,10 +1,3 @@
-/*
- * Cheese.hpp
- *
- *  Created on: 29 de mai. de 2023
- *      Author: m260851
- */
-
 #ifndef CHEESE
 #define CHEESE
 
@@ -25,4 +18,4 @@ public:
 	string getDescription();
 };
 
-#endif /* SRC_CHEESE_HPP_ */
+#endif

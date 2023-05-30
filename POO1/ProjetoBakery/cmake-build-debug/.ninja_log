@@ -1,0 +1,13 @@
+# ninja log v5
+7	659	7071615579800967	CMakeFiles/ProjetoBakery.dir/Bread.cpp.obj	4a3b152f296e2c6c
+0	671	7071615579730940	CMakeFiles/ProjetoBakery.dir/Cheese.cpp.obj	b6f94a7a7ad07791
+29	679	7071615579810955	CMakeFiles/ProjetoBakery.dir/CottageCheese.cpp.obj	7dbc9a005ace5943
+43	839	7071615581610941	CMakeFiles/ProjetoBakery.dir/Information.cpp.obj	bfe454e632fcc96c
+21	849	7071615581680941	CMakeFiles/ProjetoBakery.dir/FilledWaffer.cpp.obj	e510492f861432f1
+14	861	7071615581740961	CMakeFiles/ProjetoBakery.dir/Cracker.cpp.obj	f9dc271751962341
+663	1217	7071615585400949	CMakeFiles/ProjetoBakery.dir/Food.cpp.obj	e83446555e1f2cf9
+671	1235	7071615585580925	CMakeFiles/ProjetoBakery.dir/Ham.cpp.obj	f618a30310d2d110
+849	1426	7071615587490934	CMakeFiles/ProjetoBakery.dir/MyBooleanClass.cpp.obj	e0b45381813e5531
+679	1512	7071615588360942	CMakeFiles/ProjetoBakery.dir/Menu.cpp.obj	a59bbf4724b76269
+840	2072	7071615593950974	CMakeFiles/ProjetoBakery.dir/Main.cpp.obj	bd335d82dd93a9a6
+2073	2405	7071615597100943	ProjetoBakery.exe	3164d841d75bcbca

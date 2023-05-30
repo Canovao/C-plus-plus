@@ -1,10 +1,3 @@
-/* Unicamp - Universidade Estadual de Campinas
-   FT - Faculdade de Tecnologia
-   Limeira - SP
-   Prof. Dr. Andre F. de Angelis
-   Mar/2016
-*/
-
 #include <iostream>
 #include <string>
 #include "Information.hpp"
@@ -65,5 +58,3 @@ const void Information::bye(bool shortMessage)
       bye();
       };
    };
-   
-/* fim de arquivo */

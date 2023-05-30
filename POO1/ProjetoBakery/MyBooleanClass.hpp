@@ -1,10 +1,3 @@
-/* Unicamp - Universidade Estadual de Campinas
-   FT - Faculdade de Tecnologia
-   Limeira - SP
-   Prof. Dr. Andre F. de Angelis
-   Mar/2016
-*/
-
 #include <iostream>
 using namespace std;
 
@@ -25,5 +18,3 @@ class MyBooleanClass
    };
       
 #endif
-
-/* fim de arquivo */

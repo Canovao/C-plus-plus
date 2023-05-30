@@ -1,10 +1,3 @@
-/* Unicamp - Universidade Estadual de Campinas
-   FT - Faculdade de Tecnologia
-   Limeira - SP
-   Prof. Dr. Andre F. de Angelis
-   Mar/2016
-*/
-
 #include "Main.hpp"
 
 #include <string>
@@ -258,5 +251,3 @@ void verifyArguments(int argc, char* argv[])
    if(!verboseMode)                    { verboseMode      = new MyBooleanClass();     };  // default is false
    if(!shortMessageMode)               { shortMessageMode = new MyBooleanClass();     };  // default is false
    }
-
-/* fim de arquivo */

@@ -1,10 +1,3 @@
-/*
- * CottageCheese.cpp
- *
- *  Created on: 29 de mai. de 2023
- *      Author: m260851
- */
-
 #include "Cheese.hpp"
 #include "CottageCheese.hpp"
 
@@ -17,6 +10,3 @@ CottageCheese::~CottageCheese() = default;
 string CottageCheese::getDescription(){
    return ("Cottage Cheese " + consistency + " - " + to_string(weight) + " Kg.");
 };
-
-
-
