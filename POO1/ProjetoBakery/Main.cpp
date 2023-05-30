@@ -1,10 +1,3 @@
-/* Unicamp - Universidade Estadual de Campinas
-   FT - Faculdade de Tecnologia
-   Limeira - SP
-   Prof. Dr. Andre F. de Angelis
-   Mar/2016
-*/
-
 #include "Main.hpp"
 
 #include <string>
@@ -20,6 +13,7 @@
 #include "FilledWaffer.hpp"
 #include "Ham.hpp"
 #include "Information.hpp"
+#include "Mortadella.hpp"
 #include "Menu.hpp"
 #include "MyBooleanClass.hpp"
 
@@ -114,7 +108,7 @@ void insertItems()
  	 case 4: { insertCracker();           }; break;
  	 case 5: { insertFilledWafer();       }; break;
  	 case 6: { insertHam();               }; break;
- 	 case 7: { /*insertMortadella();  */      }; break;
+ 	 case 7: { insertMortadella();        }; break;
          };
       };
    };
@@ -241,6 +235,28 @@ void insertHam(void){
    cout << endl << ham->getDescription() << " - US$ " << fixed << setprecision(2) << ham->getValue() << endl;
 };
 
+void insertMortadella(void){
+    Mortadella * mortadella;
+    string buffer;
+    string brand;
+    string type;
+    float  weight;
+    double cost;
+
+    cout << "------------------------------\nInsert Mortadella:\n------------------------------\n";
+    cout << "Brand: "; getline(cin, buffer); brand = buffer;
+    cout << "Type ......: "; getline(cin, buffer); type   = buffer;
+    cout << "Weight ....: "; getline(cin, buffer); weight = stof(buffer);
+    cout << "Cost ......: "; getline(cin, buffer); cost   = stod(buffer);
+    cin.clear();
+
+    mortadella = new Mortadella(brand, type, weight, cost);
+    myMainList.insert(myMainList.end(), mortadella);
+
+    cout << endl << mortadella->getDescription() << " - US$ " << fixed << setprecision(2) << mortadella->getValue() << endl;
+
+}
+
 void verifyArguments(int argc, char* argv[])
    {
    if(verboseMode)                     { delete verboseMode;         }; 
@@ -258,5 +274,3 @@ void verifyArguments(int argc, char* argv[])
    if(!verboseMode)                    { verboseMode      = new MyBooleanClass();     };  // default is false
    if(!shortMessageMode)               { shortMessageMode = new MyBooleanClass();     };  // default is false
    }
-
-/* fim de arquivo */

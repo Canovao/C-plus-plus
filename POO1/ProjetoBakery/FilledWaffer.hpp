@@ -1,10 +1,3 @@
-/* Unicamp - Universidade Estadual de Campinas
-   FT - Faculdade de Tecnologia
-   Limeira - SP
-   Prof. Dr. Andre F. de Angelis
-   Maio/2015
-*/
-
 #ifndef FILLED_WAFFER
    #define FILLED_WAFFER
 
@@ -26,5 +19,3 @@ class FilledWaffer: public Cracker
    };
    
 #endif
-   
-/* fim de arquivo */
