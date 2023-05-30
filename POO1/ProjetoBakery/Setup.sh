@@ -1,0 +1,1 @@
+g++ -std=c++11 Food.cpp Bread.cpp Cheese.cpp CottageCheese.cpp Cracker.cpp FilledWaffer.cpp Ham.cpp Information.cpp Menu.cpp MyBooleanClass.cpp Main.cpp -o Main.exe
