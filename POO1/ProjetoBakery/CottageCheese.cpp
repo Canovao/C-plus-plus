@@ -1,8 +1,11 @@
 #include "Cheese.hpp"
 #include "CottageCheese.hpp"
 
-CottageCheese::CottageCheese(string consistency, string type, float weight, double value): Cheese(type, weight, value){
-	this->consistency = consistency;
+#include <utility>
+
+CottageCheese::CottageCheese(string brand, string consistency, string type, float weight, double value): Cheese(std::move(brand), std::move(type), weight, value){
+	this->consistency = std::move(consistency);
+    this->weight = weight;
 }
 
 CottageCheese::~CottageCheese() = default;

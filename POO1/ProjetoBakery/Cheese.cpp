@@ -1,7 +1,9 @@
 #include "Cheese.hpp"
 
-Cheese::Cheese(string type, float weight, double value): Food(value) {
-	this->type = type;
+#include <utility>
+
+Cheese::Cheese(string brand, string type, float weight, double value): Food(std::move(brand), value) {
+	this->type = std::move(type);
 	this->weight = weight;
 };
 

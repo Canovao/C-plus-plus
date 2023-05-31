@@ -13,7 +13,7 @@ class FilledWaffer: public Cracker
       string filling;
       
    public:
-      FilledWaffer(string, string, int, double);
+      FilledWaffer(string, string, string, int, double);
       virtual ~FilledWaffer();
       virtual string getDescription();
    };

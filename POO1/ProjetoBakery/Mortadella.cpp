@@ -1,8 +1,9 @@
 #include "Mortadella.hpp"
 
-Mortadella::Mortadella(string brand, string type, float weight, double value): Food(value) {
-    this->brand = brand;
-    this->type = type;
+#include <utility>
+
+Mortadella::Mortadella(string brand, string type, float weight, double value): Food(std::move(brand), value) {
+    this->type = std::move(type);
     this->weight = weight;
 }
 

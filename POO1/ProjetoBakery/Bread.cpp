@@ -1,18 +1,17 @@
 #include <string>
+#include <utility>
 #include "Bread.hpp"
 #include "Food.hpp"
 
 using namespace std;
 
-Bread::Bread(string type, float weight, double value) : Food(value)
-   {
-   this->type = type;
+Bread::Bread(string brand, string type, float weight, double value) : Food(std::move(brand), value){
+   this->type = std::move(type);
    this->weight = weight;
-   };
+}
    
 Bread::~Bread() = default;
 
-string Bread::getDescription()
-   { 
+string Bread::getDescription(){
    return ("Bread " + type + " - " + to_string(weight) + " Kg.");
-   };
+}

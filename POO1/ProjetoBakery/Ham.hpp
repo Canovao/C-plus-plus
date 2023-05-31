@@ -5,7 +5,6 @@
 
 class Ham: public Food{
 private:
-	string brand;
 	string type;
 	float weight;
 public:

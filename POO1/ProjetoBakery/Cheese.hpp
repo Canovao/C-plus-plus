@@ -13,7 +13,7 @@ private:
 	float weight;
 
 public:
-	Cheese(string type, float weight, double value);
+	Cheese(string brand, string type, float weight, double value);
 	virtual ~Cheese();
 	string getDescription();
 };
