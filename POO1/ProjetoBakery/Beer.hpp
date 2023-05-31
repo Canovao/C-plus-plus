@@ -3,7 +3,6 @@
 #ifndef BEER
 #define BEER
 
-
 class Beer: public Liquid {
 protected:
     float alcohol;

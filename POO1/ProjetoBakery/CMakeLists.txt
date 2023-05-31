@@ -25,4 +25,4 @@ add_executable(ProjetoBakery
         Menu.cpp
         Menu.hpp
         MyBooleanClass.cpp
-        MyBooleanClass.hpp Mortadella.cpp MyProgram.hpp MyProgram.cpp FT_bakery.cpp Liquid.hpp Liquid.cpp Milk.cpp Soda.cpp Water.cpp Beer.cpp)
+        MyBooleanClass.hpp Mortadella.cpp MyProgram.hpp MyProgram.cpp FT_bakery.cpp Liquid.hpp Liquid.cpp Milk.cpp Soda.cpp Water.cpp Beer.cpp StoutBeer.hpp StoutBeer.cpp WineBeer.hpp WineBeer.cpp)
