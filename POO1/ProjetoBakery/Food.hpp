@@ -5,17 +5,17 @@
 
 using namespace std;
 
-class Food
-   {
-   protected:
-      double value;
+class Food{
+protected:
+    string brand;
+    double value;
       
-   public:
-      Food(double);
-      virtual ~Food();
-      virtual double getValue();
+public:
+    Food(string, double);
+    virtual ~Food();
+    virtual double getValue();
 
-      virtual string getDescription() = 0;
-   };
+    virtual string getDescription() = 0;
+};
    
 #endif

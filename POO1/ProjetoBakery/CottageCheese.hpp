@@ -9,7 +9,7 @@ private:
 	float weight;
 	string consistency;
 public:
-	CottageCheese(string consistency, string type, float weight, double value);
+	CottageCheese(string, string, string, float, double);
 	virtual ~CottageCheese();
 	string getDescription();
 };

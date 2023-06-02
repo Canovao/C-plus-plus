@@ -9,7 +9,6 @@
 
 class Mortadella: public Food{
 private:
-    string brand;
     string type;
     float weight;
 public:

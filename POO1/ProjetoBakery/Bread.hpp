@@ -14,7 +14,7 @@ class Bread : public Food
       float weight;
       
    public:
-      Bread(string, float, double);
+      Bread(string, string, float, double);
       virtual ~Bread();
       virtual string getDescription();
    };

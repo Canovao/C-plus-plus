@@ -15,7 +15,7 @@ class Cracker : public Food
       int    unities;
       
    public:
-      Cracker(string, int, double);
+      Cracker(string, string, int, double);
       virtual ~Cracker();
       virtual string getDescription();
    };

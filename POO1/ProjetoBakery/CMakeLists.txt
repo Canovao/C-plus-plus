@@ -22,9 +22,7 @@ add_executable(ProjetoBakery
         Ham.hpp
         Information.cpp
         Information.hpp
-        Main.cpp
-        Main.hpp
         Menu.cpp
         Menu.hpp
         MyBooleanClass.cpp
-        MyBooleanClass.hpp Mortadella.cpp)
+        MyBooleanClass.hpp Mortadella.cpp MyProgram.hpp MyProgram.cpp FT_bakery.cpp Liquid.hpp Liquid.cpp Milk.cpp Soda.cpp Water.cpp Beer.cpp StoutBeer.hpp StoutBeer.cpp WineBeer.hpp WineBeer.cpp PaleAleBeer.hpp PaleAleBeer.cpp BrownAleBeer.hpp BrownAleBeer.cpp)
