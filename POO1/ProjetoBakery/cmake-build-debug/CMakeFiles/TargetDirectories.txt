@@ -1,3 +1,0 @@
-C:/Users/USER/Desktop/C++/C-plus-plus/POO1/ProjetoBakery/cmake-build-debug/CMakeFiles/ProjetoBakery.dir
-C:/Users/USER/Desktop/C++/C-plus-plus/POO1/ProjetoBakery/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/USER/Desktop/C++/C-plus-plus/POO1/ProjetoBakery/cmake-build-debug/CMakeFiles/rebuild_cache.dir
