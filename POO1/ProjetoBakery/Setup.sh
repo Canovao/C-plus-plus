@@ -1,0 +1,1 @@
+g++ -std=c++11 Bread.cpp Cheese.cpp CottageCheese.cpp Cracker.cpp FilledWaffer.cpp Food.cpp Ham.cpp Information.cpp Menu.cpp MyBooleanClass.cpp Mortadella.cpp MyProgram.cpp FT_bakery.cpp Liquid.cpp Milk.cpp Soda.cpp Water.cpp Beer.cpp StoutBeer.cpp WineBeer.cpp PaleAleBeer.cpp BrownAleBeer.cpp -o FT_Bakery.exe
